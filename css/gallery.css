@@ -1,11 +1,10 @@
 .home {
     background-color: rgba(255, 255, 255, .15);
     backdrop-filter: blur(5px);
-    /* height: 100px; */
     position: fixed;
+    z-index: 1;
     /* background: red; */
     width: 100%;
-    z-index: 1;
     /* border: 1px solid rgb(251, 247, 247); */
 }
 
@@ -51,36 +50,41 @@ a.homereservation1 {
     background: #d6c1c8;
     border-radius: 20px;
 }
-.sliderimage1 {
-    position: relative;
-}
 img.sliderimage1-a {
     width: 100%;
     height: 400px;
+}
+.sliderimage1 {
+    position: relative;
 }
 
 .sliderimage1details {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%)translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
-
-.aboutstory {
-    margin-top: 80px;
+.gallery {
     margin-bottom: 100px;
 }
-
-.story1 {
-    margin: 30px 70px;
+.gallery1 {
     font-size: 17px;
+    margin: 90px;
+}
+.galleryimg1_a {
+    margin-bottom: 30px;
+    height: 300px;
+    width: 100%;
+}
+.galleryimg1 {
+    overflow: hidden;
+}
+.galleryimg1_ab {
+    margin-bottom: 30px;
+    height: 150px !important;
 }
 
-.story2 {
-    font-size: 17px;
-    margin: 30px 70px;
-}
 
 
 .tablebook {
@@ -193,79 +197,3 @@ img.sliderimage1-a {
     padding: 10px;
     background: rgb(214, 193, 200);
 }
-
-
-
-.owl-nav {
-    font-size: 40px;
-    color: blue;
-    /* margin: 0 auto; */
-    /* text-align: center; */
-    /* position: absolute; */
-    /* bottom: 50%; */
-    /* transform: translateX(-50%) translateY(-50%); */
-}
-
-button.owl-prev {
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 4%; */
-    /* transform: translate(-220%, -77%); */
-    /* left: auto; */
-    position: absolute;
-    bottom: 40%;
-    left: -15px;
-    transform: translateX(-50%);
-}
-
-button.owl-next {
-    /* position: absolute; */
-    /* top: 50%; */
-    /* transform: translate(50px, -16px); */
-    right: auto;
-    position: absolute;
-    bottom: 35%;
-    transform: translateX(-50%);
-    right: -30px;
-}
-
-.imageslide {
-    background: rgb(241, 241, 241);
-    height: 287px;
-    padding: 30px 15px;
-}
-.ourteamhead {
-    text-align: center;
-    padding-top: 50px;
-}
-
-
-.ourteamhead1 {
-    font-size: 40px;
-    font-weight: 600;
-    margin-bottom: 15px;
-}
-
-.ourteamhead2 {
-    font-size: 20px;
-    margin-bottom: 50px;
-}
-
-.ourteam {
-    background: rgb(241, 241, 241);
-    padding-bottom: 100px;
-}
-span.imageslide_a {
-    position: absolute;
-    top: 80%;
-    width: 202px;
-    padding: 15px 50px 5px 50px;
-    background: rgb(241, 241, 241);
-    line-height: 1;
-    font-size: 16px;
-    font-weight: 600;
-    left: 50%;
-    text-align: center;
-    transform: translate(-50%, -50%);
-}
-
