@@ -213,7 +213,7 @@ $('#owl1').owlCarousel({
     margin:10,
     nav:true,
     autoplay:true,
-    autoplayTimeout:500000,
+    autoplayTimeout:6000,
     responsive:{
         0:{
             items:1
@@ -228,5 +228,17 @@ $('#owl1').owlCarousel({
 })
 
 
+$('#owl3').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    autoplay:true,
+    autoplayTimeout:5000,
+    responsive:{
+        0:{
+            items:1
+        }
+    }
+})
 
 new WOW().init();
