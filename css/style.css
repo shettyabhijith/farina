@@ -142,7 +142,6 @@ img.ourstory1 {
 
 .storyhead {
     font-size: 47px;
-	padding-bottom: 25px;
 }
 
 .storydescription {
@@ -410,6 +409,7 @@ button.maindish:hover {
     margin-top: 30px;
     padding-top: 10px;
     text-align: center;
+    padding-bottom: 30px;
 }
 .guestsaylist1_a {
     border-top: 2px solid;
@@ -440,6 +440,16 @@ button.maindish:hover {
 .guestreviewiconmain {
     text-align: center;
 }
+
+.food1 {
+    color: black;
+}
+
+.food1:hover {
+    color: blue;
+    text-decoration: none;
+}
+
 .blogimage1a {
     width: 100%;
     height: 235px !important;
@@ -454,8 +464,8 @@ button.maindish:hover {
 .blogimagecover {
     overflow: hidden;
 }
-.blogimage1details1:hover {
-    opacity: 0.5;    
+.blogimage1details:hover {
+    opacity: 0.7;    
 }
 .bloghead {
     text-align: center;
