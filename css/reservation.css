@@ -1,0 +1,490 @@
+.home {
+    background-color: rgba(255, 255, 255, .15);
+    backdrop-filter: blur(5px);
+    /* height: 100px; */
+    position: fixed;
+    /* background: rgb(0, 0, 255); */
+    z-index: 999;
+    /* position: relative; */
+    width: 100%;
+    /* border: 1px solid rgb(251, 247, 247); */
+}
+
+.farina {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    color: white;
+    letter-spacing: 5px;
+    font-size: 36px;
+    /* height: 100px; */
+    font-family: 'Berkshire Swash', cursive;
+}
+
+
+.list-items {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+
+a.home1 {
+    padding: 20px;
+    font-size: 13px;
+    color: white;
+}
+
+a.home1:hover {
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+.homereservation {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    /* color: white; */
+}
+
+a.homereservation1 {
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+    padding: 13px 37px;
+    background: #d6c1c8;
+    border-radius: 20px;
+}
+
+a.homereservation1:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+.tb_head {
+    height: 350px;
+    background-image: url(../image/table3a.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.tb_head1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 1.5;
+    transform: translatex(-50%);
+}
+
+.reservation1 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: 3px solid;
+    border-color: rgb(214, 193, 200);
+    background: rgb(0, 0, 0);
+    margin-top: 50px;
+    margin-left: 50px;
+    /* width: 686px; */
+    color: white;
+    /* color: white; */
+    z-index: 10;
+    /* max-width: 600px; */
+    /* opacity: 0.5; */
+    /* height: 500px; */
+    position: relative;
+}
+
+.formbackground {
+    /* z-index: -5; */
+    background-repeat: no-repeat;
+    background-image: url(../image/form_background5.jpg);
+    position: relative;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.reservationhead {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 20px;
+}
+
+.reservation_form {
+    padding: 10px;
+}
+
+label#fullnamelabel {
+    width: 120px;
+    font-size: 18px;
+}
+
+label#guestslabe {
+    width: 50px;
+    font-size: 18px;
+}
+
+label#emaillabel {
+    font-size: 18px;
+    width: 120px;
+    /* min-width: 120px; */
+}
+
+label#datelabel {
+    width: 120px;
+    font-size: 18px;
+}
+
+label#timelabel {
+    font-size: 18px;
+    width: 50px;
+}
+
+input#fullName {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+}
+
+input#guests {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+    height: 38px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+input#email {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+}
+
+input#date {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+    width: 100%;
+    padding-left: 10px;
+    /* width: 400px; */
+    height: 38px;
+    border-radius: 10px;
+    padding: -85px;
+}
+
+input#time {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+    padding-left: 10px;
+    height: 38px;
+    border-radius: 10px;
+}
+
+
+.date {
+    display: flex;
+}
+
+.datehead {
+    width: 400;
+    /* width: 100%; */
+    margin-left: 41px;
+    margin-right: 59px;
+}
+
+.fullnamebox {
+    padding-bottom: 20px;
+}
+
+.emailbox {
+    padding-bottom: 20px;
+}
+
+.date {
+    padding-bottom: 20px;
+}
+
+input#phone {
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+}
+
+textarea#subject {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 193, 200);
+    box-shadow: 1px 1px #888888;
+    padding-left: 10px;
+}
+
+
+.phonebox {
+    padding-bottom: 20px;
+}
+
+label#phonelabel {
+    width: 120px;
+    font-size: 18px;
+}
+
+.operating_hours {
+    margin-top: 5px;
+}
+
+
+.resto_details {
+    position: relative;
+    z-index: 0;
+    padding: 10px;
+    background: url(../image/form_background3.jpg);
+    display: flex;
+    margin-top: 50px;
+    /* box-shadow: 1px 1px #888888; */
+    /* border: 2px solid; */
+    /* border-color: rgb(214, 193, 200); */
+    line-height: 0.5;
+    color: white;
+    margin-left: 50px;
+    z-index: 50;
+    /* background: rgb(187, 187, 187); */
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: 3px solid;
+    border-color: rgb(214, 193, 200);
+    /* background: rgb(187, 187, 187); */
+    /* position: relative; */
+    background: rgb(0, 0, 0);
+}
+
+.side_logo {
+    width: 50px;
+    font-size: 50px;
+    margin-right: 23px;
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 0;
+    color: maroon;
+}
+
+.tb_parthead {
+    font-weight: 600;
+}
+
+.tb_parts {
+    margin-bottom: 0 !important;
+}
+
+.cuisine_box {
+    padding: 10px;
+    display: flex;
+    margin-top: 30px;
+    padding-bottom: 0;
+    /* box-shadow: 1px 1px #888888; */
+    /* border: 2px solid; */
+    /* border-color: rgb(214, 193, 200); */
+    background: url(../image/form_background3.jpg);
+    color: #ffff;
+    /* backdrop-filter: blur(5px); */
+    visibility: visible;
+    animation-name: slideInUp;
+    margin-left: 50px;
+    z-index: 10;
+    /* background: grey; */
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #888888;
+    border: 3px solid;
+    border-color: rgb(214, 193, 200);
+    background: rgb(0, 0, 0);
+}
+
+.chef_list {
+    line-height: 1;
+    margin-top: 10;
+}
+
+button.booktable1a {
+    box-shadow: 2px 2px 2px 2px;
+    border: 2px solid;
+    border-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 50px;
+    background: rgb(214, 193, 200);
+    border-radius: 10px;
+    font-size: 21px;
+    /* color: aliceblue; */
+}
+
+.booktable {
+    margin-top: 30;
+    text-align: center;
+}
+
+.input_class {
+    width: 272px;
+    height: 38px;
+    border-radius: 10px;
+    /* max-height: 40px; */
+}
+
+label#messagelabel {
+    font-size: 18px;
+}
+
+.cuisine_box::after {
+    z-index: -2;
+    top: 0;
+    background: rgb(85, 85, 117);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* content: ''; */
+    padding: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+.reservation1::after {
+    background: rgb(85, 85, 117);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* content: ''; */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clear: both;
+    opacity: 0.5;
+}
+
+.resto_details::after {
+    background: rgb(85, 85, 117);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /* content: ''; */
+    top: 0;
+    left: 0;
+    z-index: -2;
+    /* clear : both; */
+    opacity: 0.5;
+}
+
+.cuisine_box_last {
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    padding-top: 50px;
+    padding-bottom: 75px;
+    background: rgb(245, 245, 245);
+}
+
+.loremipsumhead {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.loremipsumdetail {
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+
+.quicklinkshead {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.quicklinksdetail {
+    font-size: 16px;
+    opacity: 0.7;
+    line-height: 1;
+}
+
+.infohead {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 5px 0;
+}
+
+.followushead {
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.instalink {
+    padding: 0px 10px 0 0;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.fblink {
+    padding: 0 10px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.twitterlink {
+    padding: 0 10px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.info1 {
+    line-height: 1;
+    opacity: 0.7;
+}
+
+.info2 {
+    line-height: 1;
+    margin-top: 25px;
+    opacity: 0.7;
+}
+
+.infotime1 {
+    margin-left: 12px;
+}
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background: rgb(214, 193, 200);
+}
+
+.formbackground:before {content: "77";background-color: rgb(243, 243, 243);position: absolute;/* top: 0; */opacity: 0.5;z-index: 1;filter: blur(8px);/* z-index: -3; *//* left: 0; */width: 100%;height: 100%;}
+
+.tb_head:after {content: "77";background: rgb(76, 35, 21);height: 20px;width: 100%;position: absolute;bottom: 0;left: 0;}
