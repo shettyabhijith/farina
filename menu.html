@@ -2,14 +2,9 @@
    <head>
       <link rel="stylesheet" href="css/menu.css">
       <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
-      <link rel="js" href="bootstrap/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/js/bootstrap.min.js">
-      <link href="bootstrap/bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Anton&amp;display=swap&amp;subset=latin-ext,vietnamese" rel="stylesheet">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-      <script src="js/js.js"></script>
-      <link rel="js" href="js/js.js">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;display=swap" rel="stylesheet">
    </head>
    <body style="
@@ -44,7 +39,7 @@
             </div>
             <div class="col-md-3">
                <div class="homereservation">
-                  <a href="#" class="homereservation1">RESERVATION</a>
+                  <a href="reservation.html" class="homereservation1">RESERVATION</a>
                </div>
             </div>
          </div>
@@ -68,9 +63,9 @@
         <div class="menu">
            
            <div class="dishesmenu">
-              <button class="maindish" onclick="maindish()" >MAIN DISHES</button>
-              <button class="maindish" onclick="desserts()">DESSERTS</button>
-              <button class="maindish" onclick="drinks()">DRINKS</button>
+              <button class="maindish" id ="btn_1" onclick="showFeatures('maindish1', 'btn_1')" >MAIN DISHES</button>
+              <button class="maindish" id ="btn_2" onclick="showFeatures('desserts','btn_2')">DESSERTS</button>
+              <button class="maindish" id ="btn_3" onclick="showFeatures('drinks','btn_3')">DRINKS</button>
            </div>
            <div id="maindish1" class="maindishhead">
               <div class="row">
@@ -653,7 +648,7 @@
             Make sure your seat is waiting for you
          </div>
          <div class="tablebookbtn">
-            <a href="#" class="tablebtn1">RESERVATION</a>
+            <a href="reservation.html" class="tablebtn1">RESERVATION</a>
          </div>
       </div>
       <div class="footer">
@@ -704,13 +699,13 @@
                      </div>
                      <div class="d-flex">
                         <div class="instalink">
-                           <i class="fa fa-instagram" aria-hidden="true"></i>
+                           <a href="https://www.instagram.com/abhijith__shetty/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </div>
                         <div class="fblink">
-                           <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                           <a href="https://www.facebook.com/abhi.shetty.10/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
                         </div>
                         <div class="twitterlink">
-                           <i class="fa fa-twitter" aria-hidden="true"></i>
+                           <a href="https://www.instagram.com/abhijith__shetty/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
                         </div>
                      </div>
                   </div>
@@ -721,5 +716,11 @@
       <div class="copyright">
          <p style="margin-bottom: 0;">All rights reserved © 2019 / Farina by ThemeDiv</p>
       </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <!-- <script src="js/owl.carousel.min.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" ></script>
+      <script src="js/menu.js"></script>
+
    </body>
 </html>
