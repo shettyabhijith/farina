@@ -1,0 +1,339 @@
+<html>
+   <head>
+      <link rel="stylesheet" href="css/reservation.css">
+      <link rel="stylesheet" href="css/animate.css">
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link href="https://raw.githubusercontent.com/daneden/animate.css/master/animate.css" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Anton&amp;display=swap&amp;subset=latin-ext,vietnamese" rel="stylesheet">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&amp;display=swap" rel="stylesheet">
+      <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+   </head>
+
+   <body style="
+   font-family: 'Roboto Slab', serif;
+   /* font-family: 'Berkshire Swash', cursive; */
+   ">
+   <div class="home wow slideInUp" style="visibility: visible; animation-name: slideInUp;">
+      <div class="row" style="height: 90px;">
+         <div class="col-md-3">
+            <div onclick="location.href='index.html';" style="cursor: pointer;">
+            <div class="farina">
+               <p style="
+                  margin-bottom: 0px;
+                  ">FARINA</p>
+            </div>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="list-items">
+               <ul class="list-items1 d-flex" style="
+                  margin-bottom: 0px;
+                  list-style: none;
+                  font-weight: 600;
+                  /* color: white; */
+                  ">
+                  <li><a href="index.html" class="home1">HOME</a></li>
+                  <li><a href="menu.html" class="home1">MENU</a></li>
+                  <li><a href="about.html" class="home1">ABOUT</a></li>
+                  <li><a href="gallery.html" class="home1">GALLERY</a></li>
+                  <li><a href="blog.html" class="home1">BLOG</a></li>
+                  <li><a href="contact.html" class="home1">CONTACT</a></li>
+               </ul>
+            </div>
+         </div>
+         <div class="col-md-3">
+            <div class="homereservation">
+               <a href="#" class="homereservation1">RESERVATION</a>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="tb_head">
+           <div class="tb_head1">
+           <p>BOOK A TABLE</p>
+           </div>
+   </div>
+
+   <div class="formbackground">
+       <div class="row">
+           <div class="col-md-7">
+             <div class="reservation1">
+                 <div class="reservationhead">
+                     <p>Make a reservation</p>
+                 </div>
+                 <div class="reservation_form">
+                     <form>
+                         <div class="row">
+                             <div class="col-md-8">
+                                 <div class="fullnamebox">
+                                 <label for="fullName"  id="fullnamelabel">Full Name:</label>
+                                 <input type="text" class="input_class" id="fullName" name="fullname">
+                                 </div>
+                             </div>
+                             <div class="col-md-4">
+                                 <div class="guestbox">
+                                 <label for="guests" id="guestslabe">Guests:</label>
+                                 <input type="number" id="guests" min="1" max="100" value="1">
+                                 </div>
+                             </div>
+                         </div>
+                         <div class="emailbox">
+                         <label for="email"  id="emaillabel">Email:</label>
+                         <input type="email" class="input_class" id="email" name="email">
+                         </div>
+                         <div class="row">
+                             <div class="col-md-8">
+                                 <div class="date">
+                                     <label for="date" id="datelabel">Date:</label>
+                                     <div class="datehead">
+<input type="date" id="date" name="date" value="2020-07-12" min="2020-07-01" max="2020-12-31">
+</div>
+                                 </div>
+                             </div>
+                             <div class="col-md-4">
+                                 <div class="time">
+                                     <label for="time" id="timelabel">Time:</label>
+                                     <input type="time" id="time" name="time" min="09:00" max="22:00">
+                                 </div>
+                             </div>
+                         </div>
+                         
+                         <div class="phonebox">
+                             <label for="phone"  id="phonelabel">Phone Number:</label>
+                             <input type="number" class="input_class" id="phone" name="phone">
+                         </div>
+
+                         <label for="message" id="messagelabel">Message: </label>
+<textarea id="subject" name="subject" rows="5" placeholder="Write something.." style="margin-top: 0px; margin-bottom: 0px; height: 126px;"></textarea>
+
+
+                         <div class="booktable">
+                             <button type="submit" class="booktable1a">Book A Table</button>
+                         </div>
+                     </form>
+
+                 </div>
+             </div>
+                
+                 <div class="resto_details">
+                     <div class="side_logo">
+                        <i class="fa fa-clock-o" aria-hidden="true"></i>
+                     </div>
+                     <div class="operating_hours">
+                        <div class="tb_parthead">
+                            <p>Hours of operation</p>
+                        </div>
+                        <div class="breakfast">
+                            <p>Breakfast</p>
+                        </div>
+                        <div class="breakfast_time">
+                            <p>Daily 6:30 am–10:30 am</p>
+                        </div>
+                        <div class="lunch">
+                            <p>Lunch</p>
+                        </div>
+                        <div class="lunch_time">
+                            <p>Daily 12:00 pm–3:00 pm</p>
+                        </div>
+                        <div class="evening_snacks">
+                            <p>Evening Snack</p>
+                        </div>
+                        <div class="snacks_time">
+                            <p>Daily 3:00 pm–7:00 pm</p>
+                        </div>
+                        <div class="dinner">
+                            <p>Dinner</p>
+                        </div>
+                        <div class="dinner_time">
+                            <p>Daily 7:00 pm–12:00 am</p>
+                        </div>
+                 </div>
+                </div>
+
+                 <div class="cuisine_box">
+                     <div class="side_logo">
+                        <i class="fa fa-cutlery" aria-hidden="true"></i>
+                     </div>
+                     <div class="tb_partsright">
+                     <div class="tb_parthead">
+                        <p class="tb_parts">Cuisine</p>
+                     </div>
+                     <div class="operating_hours">
+                        <p>Indian, Contemporary European </p>
+                     </div>
+                     </div>
+                 </div>
+
+                 <div class="cuisine_box">
+                    <div class="side_logo">
+                       <i class="fa fa-cutlery" aria-hidden="true"></i>
+                    </div>
+                    <div class="tb_partsright">
+                    <div class="tb_parthead">
+                       <p class="tb_parts">Dining Style</p>
+                    </div>
+                    <div class="dining_list">
+                       <p>Casual Dining  </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="cuisine_box">
+                    <div class="side_logo">
+                     <i class="fa fa-map-marker" aria-hidden="true"></i>
+                     </div>
+                    <div class="tb_partsright">
+                    <div class="tb_parthead">
+                       <p class="tb_parts">Parking Details</p>
+                    </div>
+                    <div class="parking_list">
+                       <p>Hotel Parking </p>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="cuisine_box">
+                    <div class="side_logo">
+                     <i class="fa fa-money" aria-hidden="true"></i>
+                    </div>
+                    <div class="tb_partsright">
+                    <div class="tb_parthead">
+                       <p class="tb_parts">Payment options </p>
+                    </div>
+                    <div class="payment_list">
+                       <p>AMEX, Diners Club, MasterCard, Visa </p>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="cuisine_box">
+                    <div class="side_logo">
+                     <i class="fa fa-male" aria-hidden="true"></i>
+                     </div>
+                    <div class="tb_partsright">
+                    <div class="tb_parthead">
+                       <p class="tb_parts">Executive Chef</p>
+                    </div>
+                    <div class="chef_list">
+                       <p> Stephan Calvet </p>
+                    </div>
+                    </div>
+                </div>
+
+
+                <div class="cuisine_box cuisine_box_last">
+                    <div class="side_logo">
+                     <i class="fa fa-plus" aria-hidden="true"></i>
+                     </div>
+                    <div class="tb_partsright">
+                    <div class="tb_parthead">
+                       <p class="tb_parts">Additional</p>
+                    </div>
+                    <div class="parking_list">
+                       <p>Beer, Cocktails, Outdoor dining, Outdoor Smoking Area, Private Room, Wine</p>
+                    </div>
+                    </div>
+                </div>
+              </div>
+           </div>
+           
+           <div class="col-md-5">
+
+           </div>
+       </div>
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <div class="footer">
+     <div class="container">
+        <div class="row">
+           <div class="col-md-3">
+              <div class="loremipsum">
+                 <div class="loremipsumhead">
+                  <p>  LOREM IPSUM</p>
+                 </div>
+                 <div class="loremipsumdetail">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-3">
+              <div class="quicklinks">
+                 <div class="quicklinkshead">
+                 <p>QUICK LINKS</p>
+                 </div>
+                 <div class="quicklinksdetail">
+                    <p>Home</p>
+                    <p>About</p>
+                    <p>Blog</p>
+                    <p>Contact</p>
+
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-3">
+              <div class="info">
+                 <div class="infohead">
+                    <p>INFO</p>
+                 </div>
+                 <div class="info1">
+                    <p>Mon-Fri  <span class="infotime1">09:00 - 21:00</span></p>
+                    <p>Sat-Sun <span class="infotime1">11:00 - 23:00</span></p>
+                 </div>
+                 <div class="info2">
+                    <p>59 Copthorne Way</p>
+                    <p>Camghouran, UK</p>
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-3">
+              <div class="followus">
+                 <div class="followushead">
+                    <p>FOLLOW US</p>
+                 </div>
+                 <div class="d-flex">
+                  <div class="instalink">
+                     <a href="https://www.instagram.com/abhijith__shetty/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="fblink">
+                     <a href="https://www.facebook.com/abhi.shetty.10/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+                  </div>
+                  <div class="twitterlink">
+                     <a href="https://www.instagram.com/abhijith__shetty/"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
+  </div>
+  
+  <div class="copyright">
+     <p style="margin-bottom: 0;">All rights reserved © 2019 / Farina by ThemeDiv</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  <script src="js/js.js"></script>
+
+
+
+</body>
+</html>
