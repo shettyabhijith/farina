@@ -3,6 +3,7 @@
     backdrop-filter: blur(5px);
     /* height: 100px; */
     position: fixed;
+    z-index: 1;
     /* background: red; */
     width: 100%;
     /* border: 1px solid rgb(251, 247, 247); */
@@ -16,7 +17,6 @@
     color: white;
     letter-spacing: 5px;
     font-size: 36px;
-    /* height: 100px; */
     font-family: 'Berkshire Swash', cursive;
 }
 
@@ -50,6 +50,11 @@ a.homereservation1 {
     background: #d6c1c8;
     border-radius: 20px;
 }
+
+.sliderimage1 {
+    position: relative;
+}
+
 img.sliderimage1-a {
     width: 100%;
     height: 550px;

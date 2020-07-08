@@ -257,6 +257,7 @@ span.imageslide_a {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+    color: black;
 }
 
 .mp_head1 {
@@ -496,6 +497,7 @@ button.maindish:hover {
     margin-top: 84px;
 }
 .blogbutton1 {
+    cursor: pointer;
     padding: 15px 39px;
     border-radius: 20px;
     background: rgb(214, 193, 200);
@@ -554,7 +556,6 @@ button.maindish:hover {
     opacity: 0.7;
 }
 
-p {}
 
 .quicklinkshead {
     padding: 5px 0;
@@ -617,3 +618,4 @@ p {}
     padding: 10px;
     background: rgb(214, 193, 200);
 }
+
