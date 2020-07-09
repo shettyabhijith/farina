@@ -242,3 +242,17 @@ $('#owl3').owlCarousel({
 })
 
 new WOW().init();
+
+
+function call_function() {
+
+
+    var a = document.getElementById("call_detailslide") ;
+    if (a.style.display === 'block') {
+
+        a.style.display = 'none' ;
+    }
+        else {
+            a.style.display = 'block' ;
+        }
+    }
