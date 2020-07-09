@@ -143,6 +143,7 @@ img.ourstory1 {
 
 .storyhead {
     font-size: 47px;
+    margin-bottom: 30px;
 }
 
 .storydescription {
@@ -527,7 +528,7 @@ button.maindish:hover {
     font-size: 60px;
     font-weight: 600;
     padding-top: 72px;
-	margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .tablebook2 {
