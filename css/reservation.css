@@ -125,27 +125,32 @@ a.homereservation1:hover {
 label#fullnamelabel {
     width: 120px;
     font-size: 18px;
+    display: inline-block;
 }
 
 label#guestslabe {
     width: 50px;
     font-size: 18px;
+    display: inline-block;
 }
 
 label#emaillabel {
     font-size: 18px;
     width: 120px;
     /* min-width: 120px; */
+    display: inline-block;
 }
 
 label#datelabel {
-    width: 120px;
+    /* width: 100%; */
     font-size: 18px;
+    display: inline-block;
 }
 
 label#timelabel {
     font-size: 18px;
     width: 50px;
+    display: inline-block;
 }
 
 input#fullName {
@@ -156,9 +161,11 @@ input#fullName {
 input#guests {
     border: 2px solid rgb(214, 193, 200);
     box-shadow: 1px 1px #888888;
-    height: 38px;
+    height: 40px;
     padding-left: 10px;
     border-radius: 10px;
+    width: 130px;
+    margin-left: 10px;
 }
 
 input#email {
@@ -169,12 +176,14 @@ input#email {
 input#date {
     border: 2px solid rgb(214, 193, 200);
     box-shadow: 1px 1px #888888;
-    width: 100%;
+    /* width: 0; */
     padding-left: 10px;
     /* width: 400px; */
     height: 38px;
     border-radius: 10px;
     padding: -85px;
+    width: 130px;
+    margin-left: 25px;
 }
 
 input#time {
@@ -183,6 +192,8 @@ input#time {
     padding-left: 10px;
     height: 38px;
     border-radius: 10px;
+    width: 130px;
+    margin-left: 12px;
 }
 
 
@@ -230,10 +241,13 @@ textarea#subject {
 label#phonelabel {
     width: 120px;
     font-size: 18px;
+    display: inline-block;
 }
 
 .operating_hours {
     margin-top: 5px;
+    font-size: 16px;
+    line-height: 1;
 }
 
 
@@ -280,6 +294,7 @@ label#phonelabel {
 }
 
 .cuisine_box {
+    font-size: 16px;
     padding: 10px;
     display: flex;
     margin-top: 30px;
@@ -379,6 +394,17 @@ label#messagelabel {
 .cuisine_box_last {
     margin-bottom: 50px;
 }
+
+.ddd {
+    margin-left: 0px !important;
+}
+
+
+.input_class {
+    width: 300px;
+    height: 40px !important;
+}
+
 
 
 
