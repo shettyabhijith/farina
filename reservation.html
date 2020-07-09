@@ -65,46 +65,64 @@
                      <p>Make a reservation</p>
                  </div>
                  <div class="reservation_form">
-                     <form>
-                         <div class="row">
+                     
+
+
+
+
+
+
+
+<form>
+                         <div class="row ddd">
                              <div class="col-md-8">
                                  <div class="fullnamebox">
-                                 <label for="fullName"  id="fullnamelabel">Full Name:</label>
+                                 <label for="fullName" id="fullnamelabel">Full Name:</label>
                                  <input type="text" class="input_class" id="fullName" name="fullname">
                                  </div>
+                                 
+                                 <div class="emailbox">
+                         <label for="email" id="emaillabel">Email:</label>
+                         <input type="email" class="input_class" id="email" name="email">
+                         </div>
+                                 
+                                 <div class="phonebox">
+                             <label for="phone" id="phonelabel">Phone Number:</label>
+                             <input type="number" class="input_class" id="phone" name="phone">
+                         </div>
+                                 
+                                 
+                                 
+                                 
                              </div>
                              <div class="col-md-4">
-                                 <div class="guestbox">
+                                 <div class="guestbox" style="
+    padding-bottom: 20px;
+">
                                  <label for="guests" id="guestslabe">Guests:</label>
                                  <input type="number" id="guests" min="1" max="100" value="1">
                                  </div>
-                             </div>
-                         </div>
-                         <div class="emailbox">
-                         <label for="email"  id="emaillabel">Email:</label>
-                         <input type="email" class="input_class" id="email" name="email">
-                         </div>
-                         <div class="row">
-                             <div class="col-md-8">
+                                 
                                  <div class="date">
                                      <label for="date" id="datelabel">Date:</label>
-                                     <div class="datehead">
+                                    
 <input type="date" id="date" name="date" value="2020-07-12" min="2020-07-01" max="2020-12-31">
-</div>
+
                                  </div>
-                             </div>
-                             <div class="col-md-4">
+                                 
                                  <div class="time">
                                      <label for="time" id="timelabel">Time:</label>
                                      <input type="time" id="time" name="time" min="09:00" max="22:00">
                                  </div>
+                                 
+                                 
+                                 
+                                 
+                                 
                              </div>
-                         </div>
+      </div>
                          
-                         <div class="phonebox">
-                             <label for="phone"  id="phonelabel">Phone Number:</label>
-                             <input type="number" class="input_class" id="phone" name="phone">
-                         </div>
+                         
 
                          <label for="message" id="messagelabel">Message: </label>
 <textarea id="subject" name="subject" rows="5" placeholder="Write something.." style="margin-top: 0px; margin-bottom: 0px; height: 126px;"></textarea>
@@ -113,7 +131,9 @@
                          <div class="booktable">
                              <button type="submit" class="booktable1a">Book A Table</button>
                          </div>
-                     </form>
+                     </form> 
+
+
 
                  </div>
              </div>
@@ -246,7 +266,7 @@
 
            </div>
        </div>
-   </div>
+   
 
 
 
@@ -332,6 +352,7 @@
   <script src="js/owl.carousel.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
   <script src="js/js.js"></script>
+
 
 
 
